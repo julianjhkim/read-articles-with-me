@@ -1,0 +1,25 @@
+# Quarto
+/.quarto/
+/_book/
+/_site/
+*_files/
+*.quarto_ipynb
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+
+# macOS
+.DS_Store
+
+# Large / private data (commit only small sample data)
+data/raw/
+*.pdf
+
+**/*.quarto_ipynb

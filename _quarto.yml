@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Read Articles with Me"
+  subtitle: "Reading, understanding, and simply replicating research papers"
+  author: "Julian Kim"
+  date: today
+  date-format: "YYYY-MM-DD"
+  repo-url: https://github.com/julianjhkim/read-articles-with-me
+  repo-actions: [edit, issue]
+  search: true
+  chapters:
+    - index.qmd
+    - part: "Papers"
+      chapters:
+        - papers/00-template.qmd
+    # To add a paper: append papers/<year>-<author>-<keyword>.qmd above
+
+lang: en
+
+execute:
+  freeze: auto   # Code runs locally only; commit _freeze/. CI does not re-run code.
+  warning: false
+  message: false
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-copy: true
+    code-overflow: wrap
+    fig-align: center
+    link-external-newwindow: true
