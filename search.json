@@ -10,26 +10,6 @@
     ]
   },
   {
-    "objectID": "index.html#how-each-chapter-is-organized",
-    "href": "index.html#how-each-chapter-is-organized",
-    "title": "Read Articles with Me",
-    "section": "How each chapter is organized",
-    "text": "How each chapter is organized\nEach chapter covers one paper and follows the same structure:\n\nPaper at a glance: citation, one-line summary, and why it is worth reading\nBackground: the minimum context needed to follow the paper\nCore idea: the key method, explained intuitively\nReplication: a simple reproduction using simulated or public data\nTakeaways: what we learned, limitations, and further reading",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#replication-principles",
-    "href": "index.html#replication-principles",
-    "title": "Read Articles with Me",
-    "section": "Replication principles",
-    "text": "Replication principles\n\nThe goal is not a perfect reproduction of every number, but to confirm the direction and mechanism of the main result.\nEvery chapter’s code runs end to end as written.\nRandom seeds are fixed wherever randomness is involved.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
     "objectID": "papers/00-template.html",
     "href": "papers/00-template.html",
     "title": "1  Paper Title (Author, Year)",
