@@ -4,7 +4,7 @@ title: "The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)"
 
 | | |
 |---|---|
-| **Citation** | Dupré la Tour, T., Visconti di Oleggio Castello, M., & Gallant, J. L. (2025). *The Voxelwise Encoding Model framework: A tutorial introduction to fitting encoding models to fMRI data*. Imaging Neuroscience, 3. |
+| **Citation (APA)** | Dupré la Tour, T., Visconti di Oleggio Castello, M., & Gallant, J. L. (2025). The Voxelwise Encoding Model framework: A tutorial introduction to fitting encoding models to fMRI data. *Imaging Neuroscience*, *3*. |
 | **DOI / Link** | <https://doi.org/10.1162/imag_a_00575> |
 | **Summary** | A hands-on guide to voxelwise encoding models: predict each voxel's fMRI response from stimulus features with (banded) ridge regression and delayed features, and evaluate the model on held-out data. |
 
