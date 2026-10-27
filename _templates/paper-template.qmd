@@ -1,17 +1,12 @@
 ---
 title: "Paper Title (Author, Year)"
-subtitle: "One-line summary"
 ---
-
-## Paper at a glance
 
 | | |
 |---|---|
 | **Citation** | Author, A. (Year). *Title*. Journal, Vol(Issue), pages. |
 | **DOI / Link** | <https://doi.org/...> |
-| **Field** | |
-| **One-line summary** | |
-| **Why read it** | |
+| **Summary** | |
 
 ## Background
 

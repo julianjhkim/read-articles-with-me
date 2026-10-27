@@ -13,10 +13,13 @@ book:
   search: true
   chapters:
     - index.qmd
-    - part: "Papers"
+    - part: "NeuroAI: Brain encoding"
       chapters:
-        - papers/00-template.qmd
-    # To add a paper: append papers/<year>-<author>-<keyword>.qmd above
+        - neuroai/brain-encoding/2025-duprelatour-vem.qmd
+    # To add a paper: copy _templates/paper-template.qmd to
+    # <field>/<subfield>/<year>-<author>-<keyword>.qmd and list it under its part.
+    # Quarto book sidebars support only one level of parts, so each
+    # field/subfield pair gets its own part, e.g. "NeuroAI: Brain decoding".
 
 lang: en
 
