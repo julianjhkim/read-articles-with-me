@@ -2,18 +2,3 @@
 
 This book is a record of reading research papers one at a time, understanding their core ideas, and replicating them as simply as possible.
 
-## How each chapter is organized
-
-Each chapter covers one paper and follows the same structure:
-
-1. **Paper at a glance**: citation, one-line summary, and why it is worth reading
-2. **Background**: the minimum context needed to follow the paper
-3. **Core idea**: the key method, explained intuitively
-4. **Replication**: a simple reproduction using simulated or public data
-5. **Takeaways**: what we learned, limitations, and further reading
-
-## Replication principles
-
-- The goal is not a *perfect* reproduction of every number, but to confirm the **direction and mechanism** of the main result.
-- Every chapter's code runs end to end as written.
-- Random seeds are fixed wherever randomness is involved.
