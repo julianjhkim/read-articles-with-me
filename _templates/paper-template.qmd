@@ -4,7 +4,7 @@ title: "Paper Title (Author, Year)"
 
 | | |
 |---|---|
-| **Citation** | Author, A. (Year). *Title*. Journal, Vol(Issue), pages. |
+| **Citation (APA)** | Author, A. A., & Author, B. B. (Year). Title of the article in sentence case. *Journal Name*, *Volume*(Issue), pages. |
 | **DOI / Link** | <https://doi.org/...> |
 | **Summary** | |
 
