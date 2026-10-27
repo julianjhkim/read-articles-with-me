@@ -10,69 +10,47 @@
     ]
   },
   {
-    "objectID": "papers/00-template.html",
-    "href": "papers/00-template.html",
-    "title": "1  Paper Title (Author, Year)",
+    "objectID": "neuroai/brain-encoding/2025-duprelatour-vem.html",
+    "href": "neuroai/brain-encoding/2025-duprelatour-vem.html",
+    "title": "1  The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)",
     "section": "",
-    "text": "1.1 Paper at a glance",
+    "text": "1.1 Background\nTo be written.",
     "crumbs": [
-      "Papers",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paper Title (Author, Year)</span>"
+      "NeuroAI: Brain encoding",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)</span>"
     ]
   },
   {
-    "objectID": "papers/00-template.html#paper-at-a-glance",
-    "href": "papers/00-template.html#paper-at-a-glance",
-    "title": "1  Paper Title (Author, Year)",
-    "section": "",
-    "text": "Citation\nAuthor, A. (Year). Title. Journal, Vol(Issue), pages.\n\n\nDOI / Link\nhttps://doi.org/...\n\n\nField\n\n\n\nOne-line summary\n\n\n\nWhy read it",
+    "objectID": "neuroai/brain-encoding/2025-duprelatour-vem.html#core-idea",
+    "href": "neuroai/brain-encoding/2025-duprelatour-vem.html#core-idea",
+    "title": "1  The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)",
+    "section": "1.2 Core idea",
+    "text": "1.2 Core idea\nTo be written.",
     "crumbs": [
-      "Papers",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paper Title (Author, Year)</span>"
+      "NeuroAI: Brain encoding",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)</span>"
     ]
   },
   {
-    "objectID": "papers/00-template.html#background",
-    "href": "papers/00-template.html#background",
-    "title": "1  Paper Title (Author, Year)",
-    "section": "1.2 Background",
-    "text": "1.2 Background\nThe minimum background needed to understand this paper.",
+    "objectID": "neuroai/brain-encoding/2025-duprelatour-vem.html#replication",
+    "href": "neuroai/brain-encoding/2025-duprelatour-vem.html#replication",
+    "title": "1  The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)",
+    "section": "1.3 Replication",
+    "text": "1.3 Replication\nTo be written.",
     "crumbs": [
-      "Papers",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paper Title (Author, Year)</span>"
+      "NeuroAI: Brain encoding",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)</span>"
     ]
   },
   {
-    "objectID": "papers/00-template.html#core-idea",
-    "href": "papers/00-template.html#core-idea",
-    "title": "1  Paper Title (Author, Year)",
-    "section": "1.3 Core idea",
-    "text": "1.3 Core idea\nExplain the core method intuitively. Add equations where helpful:\n\\[\ny_i = \\beta_0 + \\beta_1 x_i + \\varepsilon_i\n\\]",
+    "objectID": "neuroai/brain-encoding/2025-duprelatour-vem.html#takeaways",
+    "href": "neuroai/brain-encoding/2025-duprelatour-vem.html#takeaways",
+    "title": "1  The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)",
+    "section": "1.4 Takeaways",
+    "text": "1.4 Takeaways\nTo be written.",
     "crumbs": [
-      "Papers",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paper Title (Author, Year)</span>"
-    ]
-  },
-  {
-    "objectID": "papers/00-template.html#replication",
-    "href": "papers/00-template.html#replication",
-    "title": "1  Paper Title (Author, Year)",
-    "section": "1.4 Replication",
-    "text": "1.4 Replication\n\n1.4.1 Setup\n\n\nCode\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nrng = np.random.default_rng(42)\n\n\n\n\n1.4.2 Data\n\n\nCode\nn = 200\nx = rng.normal(size=n)\ny = 1.0 + 2.0 * x + rng.normal(scale=1.0, size=n)\ndf = pd.DataFrame({\"x\": x, \"y\": y})\ndf.head()\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n0.304717\n1.947009\n\n\n1\n-1.039984\n0.327514\n\n\n2\n0.750451\n2.591487\n\n\n3\n0.940565\n3.525068\n\n\n4\n-1.951035\n-4.952242\n\n\n\n\n\n\n\n\n\n1.4.3 Analysis\n\n\nCode\nbeta1, beta0 = np.polyfit(df[\"x\"], df[\"y\"], 1)\nplt.scatter(df[\"x\"], df[\"y\"], alpha=0.5)\ngrid = np.linspace(df[\"x\"].min(), df[\"x\"].max(), 100)\nplt.plot(grid, beta0 + beta1 * grid)\nplt.xlabel(\"x\"); plt.ylabel(\"y\")\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1.1: Example figure\n\n\n\n\n\n\n\n1.4.4 Comparison with the paper\n\n\n\nQuantity\nPaper\nOurs",
-    "crumbs": [
-      "Papers",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paper Title (Author, Year)</span>"
-    ]
-  },
-  {
-    "objectID": "papers/00-template.html#takeaways",
-    "href": "papers/00-template.html#takeaways",
-    "title": "1  Paper Title (Author, Year)",
-    "section": "1.5 Takeaways",
-    "text": "1.5 Takeaways\n\nWhat we learned\nLimitations / where our replication differs\nFurther reading",
-    "crumbs": [
-      "Papers",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paper Title (Author, Year)</span>"
+      "NeuroAI: Brain encoding",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Voxelwise Encoding Model framework (Dupré la Tour et al., 2025)</span>"
     ]
   }
 ]
